@@ -1,4 +1,4 @@
-def atbash(palav):
+def atbash(frase):
     '''
     Função exclusiva para receber como parâmetro uma frase/palavra qualquer, convertendo-a para a cifra simples de substituição ATBASH.
     Caso queira saber mais a respeito dessa codificação, acesse o site: https://pt.wikipedia.org/wiki/Atbash.
@@ -19,8 +19,8 @@ def atbash(palav):
         reverse.append(alfabeto[inverse])
 
     # SEPARAR AS LETRAS E FORMAR O ATBASH
-    for cont in range(0, len(palav)):
-        letras.append(palav[cont])
+    for cont in range(0, len(frase)):
+        letras.append(frase[cont])
     
     for letra in letras:
         if letra not in alfabeto:
