@@ -1,5 +1,5 @@
-# CONVERSOR DE ATBASH
+<h1>CONVERSOR DE ATBASH</h1>
 
-- Esse programa tem por objetivo converter strings (frases/palavras) quaisquer para a cifra de substituição Atbash;
+## This program has the functionality to encode any strings (phrases / words) for an Atbash replacement cipher;
 
-- Caso queira entender o funcionamento dessa simples cifra, dê uma olhada no site: https://pt.wikipedia.org/wiki/Atbash
+## If you want to understand how this simple cipher works, take a look at the website: https://pt.wikipedia.org/wiki/Atbash
